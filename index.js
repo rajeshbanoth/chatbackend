@@ -39,7 +39,7 @@ const server = app.listen(process.env.PORT||9000,()=>{
 
 const io = socket(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://harmonious-zuccutto-fc93dc.netlify.app/login",
       credentials: true,
     },
     maxHttpBufferSize: 1e8 // 100 MB
